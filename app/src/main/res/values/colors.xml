@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <!-- 应用主题色 -->
+    <color name="primary">#FF1565C0</color>
+    <color name="primary_dark">#FF0D47A1</color>
+    <color name="primary_light">#FF5472D3</color>
+    <color name="accent">#FFFF6F00</color>
+
+    <!-- 时间滑动条颜色 -->
+    <color name="timeline_bg">#FFE0E0E0</color>
+    <color name="timeline_progress">#FF1565C0</color>
+    <color name="timeline_thumb">#FF0D47A1</color>
+
+    <!-- 标记颜色 -->
+    <color name="marker_event">#FFF44336</color>
+    <color name="marker_building">#FF4CAF50</color>
+
+    <!-- 卡片背景 -->
+    <color name="card_background">#FFF5F5F5</color>
+</resources>

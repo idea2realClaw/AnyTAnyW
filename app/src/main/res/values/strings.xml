@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">时间地图</string>
+    <string name="title_activity_maps">时间地图</string>
+    <string name="set_earliest_year">设置最早年份</string>
+    <string name="earliest_year_hint">例如: -221 (公元前221年)</string>
+    <string name="current_year">现在</string>
+    <string name="loading">加载中...</string>
+    <string name="no_events">该年份此地附近没有重要事件</string>
+    <string name="error_location">无法获取位置信息</string>
+    <string name="error_maps">Google Maps 初始化失败</string>
+    <string name="permission_denied">需要位置权限以显示你的位置</string>
+    <string name="api_key_missing">请配置 Google Maps API Key</string>
+    <string name="historical_event">历史事件</string>
+    <string name="historical_building">历史建筑</string>
+    <string name="year_label">年份: </string>
+    <string name="event_title">事件: </string>
+    <string name="building_title">建筑: </string>
+    <string name="description">描述: </string>
+    <string name="close">关闭</string>
+</resources>

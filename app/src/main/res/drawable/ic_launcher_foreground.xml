@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 背景圆形 -->
+    <circle
+        android:cx="54"
+        android:cy="54"
+        android:r="50"
+        android:fillColor="#1565C0" />
+
+    <!-- 时钟/时间符号 -->
+    <group
+        android:translateX="54"
+        android:translateY="54">
+
+        <!-- 时钟圆盘 -->
+        <circle
+            android:cx="0"
+            android:cy="0"
+            android:r="35"
+            android:fillColor="#FFFFFF"
+            android:strokeWidth="2"
+            android:strokeColor="#1565C0" />
+
+        <!-- 时针 -->
+        <line
+            android:startX="0"
+            android:startY="0"
+            android:endX="0"
+            android:endY="-20"
+            android:strokeWidth="3"
+            android:strokeColor="#1565C0"
+            android:strokeLineCap="round" />
+
+        <!-- 分针 -->
+        <line
+            android:startX="0"
+            android:startY="0"
+            android:endX="15"
+            android:endY="0"
+            android:strokeWidth="2"
+            android:strokeColor="#1565C0"
+            android:strokeLineCap="round" />
+
+        <!-- 中心点 -->
+        <circle
+            android:cx="0"
+            android:cy="0"
+            android:r="3"
+            android:fillColor="#1565C0" />
+
+    </group>
+
+    <!-- 地图标记符号 -->
+    <path
+        android:fillColor="#F44336"
+        android:pathData="M 30,75 Q 30,65 35,60 L 45,50 Q 50,45 55,50 L 65,60 Q 70,65 70,75 Q 70,85 50,95 Q 30,85 30,75 Z" />
+
+</vector>

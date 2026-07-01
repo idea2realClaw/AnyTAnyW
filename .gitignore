@@ -1,0 +1,61 @@
+# Android项目.gitignore
+
+# 构建输出
+build/
+.gradle/
+*/build/
+
+# 本地配置文件（可能包含API Key等敏感信息）
+local.properties
+
+# Android Studio/IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Gradle wrapper
+!gradle/wrapper/gradle-wrapper.jar
+!gradle-wrapper.jar
+
+# 日志文件
+*.log
+
+# Android特定的文件
+*.apk
+*.ap_
+*.dex
+
+# 原生C/C++文件
+*.o
+*.so
+
+# 测试报告
+test-results/
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# 密钥库文件
+*.jks
+*.keystore
+
+# 用户特定的文件
+.gradle/
+
+# 其他
+captures/
+.externalNativeBuild/
+.cxx/
+
+# API密钥配置文件（不要上传真实的API Key）
+# 但保留示例文件
+# gradle.properties 中有API Key，应该被忽略
+# 但我们可以保留gradle.properties的示例内容

@@ -25,6 +25,10 @@ android {
                 "proguard-rules.pro"
             )
         }
+        debug {
+            // 在debug构建中启用BuildConfig
+            buildConfigField("String", "GOOGLE_MAPS_API_KEY", "\"${project.findProperty("GOOGLE_MAPS_API_KEY") ?: ""}\"")
+        }
     }
 
     buildFeatures {
@@ -50,6 +54,12 @@ dependencies {
     // Google Maps SDK
     implementation("com.google.android.gms:play-services-maps:18.1.0")
     implementation("com.google.android.gms:play-services-location:21.0.1")
+
+    // Kotlin Coroutines (for async operations)
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+
+    // OkHttp (for HTTP requests to Places API)
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
 
     // Lifecycle components
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")

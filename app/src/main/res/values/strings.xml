@@ -18,4 +18,9 @@
     <string name="building_title">建筑: </string>
     <string name="description">描述: </string>
     <string name="close">关闭</string>
+    <string name="search_attractions">搜索附近景点</string>
+    <string name="searching">正在搜索附近景点...</string>
+    <string name="no_attractions">未找到附近景点</string>
+    <string name="attractions_found">找到 %d 个景点</string>
+    <string name="api_error">API调用失败: %s</string>
 </resources>
